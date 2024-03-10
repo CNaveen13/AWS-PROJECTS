@@ -6,7 +6,7 @@ AWS (Amazon Web Services) provides multiple layers of security to protect resour
 Security Groups:
     Security Groups act as virtual firewalls for Amazon EC2 instances (virtual servers) at the instance level. They control inbound and outbound traffic by allowing 
     or denying specific protocols, ports, and IP addresses Each EC2 instance can be associated with one or more security groups, and each security group consists of 
-    inbound and outbound rules.Inbound rules determine the traffic that is allowed to reach the EC2 instance, whereas outbound rules control the traffic leaving the 
+    inbound and outbound rules.Inbound rules determine the traffic that is allowed to reach the EC2 instance, whereas outbound rules control the traffic leavingthe 
     instance.Security Groups can be configured using IP addresses, CIDR blocks, security group IDs, or DNS names to specify the source or destination of the 
     traffic.They operate at the instance level and evaluate the rules before allowing traffic to reach the instance Security Groups are stateful, meaning that if an 
     inbound rule allows traffic, the corresponding outbound traffic is automatically allowed, and vice versa.Changes made to security group rules take effect 
